@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+
+<div class="container-fluid bg-secondary">
+    <nav class="navbar">
+        <div class="navbar nav-brand">
+           Log in
+        </div>
+         <div class="navbar-toggle">
+            <ul class="nav navbar text-light navbar-list navbar-toggle">
+                <li class="nav-item p-2"><a href="#">Home</a></li>
+                <li class="nav-item p-2"><a href="#">About</a></li>
+                <li class="nav-item p-2"><a href="#">Service</a></li>
+                <li class="nav-item p-2"><a href="#">Help</a></li>
+            
+            </ul>
+         </div>
+
+
+    </nav>
+    </div>
+
+    <div class="continer-fluid box1">
+        <div class="row box2 m-3">
+            <form onsubmit="submit()" class="form1 form-group">
+                <h4 class="text-primary text-center">LOG IN</h4>
+            
+                <label>User Name</label>
+                <input class="form-control finput" type="text" name="uname" placeholder="Enter the name"/>
+                <br/>
+                <label>Password</label>
+                <input class="form-control finput" type="text" name="uname" placeholder="Enter the password"/>
+                
+                <span class="text-danger">Forget password?</span>
+                <br/>
+                
+                <button  onclick="submit" class="text-center btn btn-success m-10" type="submit" name="submit">Submit</button>
+                <br/><button  onclick="submit" class="btn btn-danger m-10" type="reset" name="reset">Reset </button>
+                 <br/>
+                 <span class="text-secondary">Not a member? <a class="text-primary" href="register.html"> Signup now</a></span>
+
+            </form>
+       
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+<script src="./bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>  
+<script>
+    function submit(event){  
+        event.preventDefault();
+    }
+</script>
+</body>
+</html>
+
+
+
+
+

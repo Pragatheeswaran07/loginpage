@@ -1,0 +1,32 @@
+body{
+    box-sizing: border-box;
+
+}
+.box1{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: ghostwhite;
+}
+.form1{
+    
+    left:140px;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.box2{
+    background-color: #dbd6d6;
+    padding: 2rem;
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+.finput{
+    border:none;
+    box-shadow:3px 3px rgba(0,0,0,0.1);
+}
